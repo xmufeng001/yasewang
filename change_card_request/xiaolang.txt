@@ -1,0 +1,11 @@
+POST /connect/app/cardselect/savedeckcard?cyt=1 HTTP/1.1
+User-Agent: Million/100 (GT-I9100; GT-I9100; 4.0.3) samsung/GT-I9100/GT-I9100:4.0.3/IML74K/ZSLPG:user/release-keys
+Accept-Encoding: gzip, deflate
+Content-Length: 167
+Content-Type: application/x-www-form-urlencoded
+Host: game1-CBT.ma.sdo.com:10001
+Connection: Keep-Alive
+Cookie: S=l2c78qss2pjfv9d67d6p0bleg1
+Cookie2: $Version=1
+
+C=tWleZez2nZUKPaDEL%2Frwj4x7rw%2B0vUKp%2Fpc%2BN%2B2sFH3zGeMHnPJkwThx3cDEbfVXEAjoR9k2p7EF%0A6D31AT9oQ2PWUTs9pdB0p4%2FNZmMBHEQ%3D%0A&lr=hyqqmU6DH%2F0mrJo7GJvB4A%3D%3D%0A

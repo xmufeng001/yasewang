@@ -1,0 +1,9 @@
+POST /ma/backend/cgi-bin/getUserInfo.php HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.0.3; GT-I9100 Build/IML74K)
+Host: www.niuxba.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 66
+
+data={"phone":"15820263794","groupId":1,"serverNo":3,"userId":291}
