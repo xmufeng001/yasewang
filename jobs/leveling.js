@@ -250,7 +250,7 @@ var battleLv4User=function(cookieString,user_id){
 }
 
 var goMap=function(cookieString){
-    var request_content_text = fs.readFileSync("./../map_request/tuesday/1.txt", "utf8");
+    var request_content_text = fs.readFileSync("./../map_request/monday/1.txt", "utf8");
     var headers=http_content_util.getHeaders(request_content_text);
     delete headers['Content-Length'];
     headers["Cookie"]=cookieString;
