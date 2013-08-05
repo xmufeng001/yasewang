@@ -78,6 +78,7 @@ async.waterfall([
                         }
                         if(bc>5||moment().add('minutes', -15).isAfter(lastBCUpdate)){
                             var randomIndex=Math.floor(Math.random()*lv4_userIds_length);
+                            console.log(randomIndex);
                             var userId=lv4_userIds[randomIndex] ;
                             battleLv4User(cookieString,userId);
                         }
@@ -249,7 +250,7 @@ var battleLv4User=function(cookieString,user_id){
 }
 
 var goMap=function(cookieString){
-    var request_content_text = fs.readFileSync("./../map_request/36/1/1.txt", "utf8");
+    var request_content_text = fs.readFileSync("./../map_request/monday/1.txt", "utf8");
     var headers=http_content_util.getHeaders(request_content_text);
     delete headers['Content-Length'];
     headers["Cookie"]=cookieString;
