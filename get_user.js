@@ -2,7 +2,7 @@ var http_content_util=require('./http_content_util');
 var app_conf = require('./app-conf');
 var fs = require('fs');
 var getUserIds=function(){
-    var result=http_content_util.getAllFiles("C:/Users/Wind/Desktop/R8");
+    var result=http_content_util.getAllFiles("C:/Users/Wind/Desktop/R9");
     result.forEach(function(file) {
         var content = fs.readFileSync(file, "utf8");
         console.log("\""+http_content_util.getPostDate(content)["user_id"]+"\",");
@@ -19,4 +19,4 @@ var delRepeat=function(){
     });
     console.log(newUserIds);
 }
-delRepeat();
+getUserIds();

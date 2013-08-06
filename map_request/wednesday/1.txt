@@ -8,4 +8,4 @@ Connection: Keep-Alive
 Cookie: S=a8lv3p7ock1cb02auclkh9o0f3
 Cookie2: $Version=1
 
-area_id=N%2BvTuVXRruiuVevIhjtn3Q%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A
+area_id=N%2BvTuVXRruiuVevIhjtn3Q%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A
